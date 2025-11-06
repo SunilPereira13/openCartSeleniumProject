@@ -1,0 +1,72 @@
+2025-11-06 11:16:57 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:00 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:17:04 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:17:04 DEBUG BaseTest:38 - Test
+2025-11-06 11:17:06 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:09 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:09 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:17:10 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:17:13 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:17:13 DEBUG BaseTest:38 - Test
+2025-11-06 11:17:15 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:17:17 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:19 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:17:22 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:17:24 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:27 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:17:30 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:33 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:17:36 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:17:44 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:17:47 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:17:50 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:18:00 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:18:01 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:28:15 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:18 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:28:22 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:26 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:28:28 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:28:28 DEBUG BaseTest:38 - Test
+2025-11-06 11:28:31 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:28:31 DEBUG BaseTest:38 - Test
+2025-11-06 11:28:32 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:34 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:28:39 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:28:42 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:46 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:28:48 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:49 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:28:51 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:28:55 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:28:55 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:28:58 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:29:06 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:29:07 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:29:09 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:29:18 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:29:20 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:35:34 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:35:36 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:35:40 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:35:42 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:35:42 DEBUG BaseTest:38 - Test
+2025-11-06 11:35:42 INFO  BaseTest:23 - ********TC001 verifyAccountRegistration testcase is started to execute********
+2025-11-06 11:35:44 INFO  BaseTest:37 - ********TC001 verifyAccountRegistration testcase execution is ended********
+2025-11-06 11:35:44 DEBUG BaseTest:38 - Test
+2025-11-06 11:35:46 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:35:48 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:35:50 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:35:53 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:35:55 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:35:57 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:35:59 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:35:59 INFO  BaseTest:16 - TC002 is started
+2025-11-06 11:36:02 INFO  BaseTest:31 - TC002 ended
+2025-11-06 11:36:02 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:36:04 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:36:12 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:36:14 INFO  BaseTest:16 - TC003 is started
+2025-11-06 11:36:18 INFO  BaseTest:31 - TC003 ended
+2025-11-06 11:36:33 INFO  BaseTest:72 - Browser initiated succefully
+2025-11-06 11:36:35 INFO  BaseTest:16 - TC003 is started

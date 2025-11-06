@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <properties>
+        <!-- Set base path to the logs folder inside seleniumProject -->
+        <property name="basePath">./logs</property>
+    </properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!-- Rolling File Appender (for rotation & compression) -->
+        <RollingFile name="RollingFileAppender"
+                     fileName="${basePath}/automation.log"
+                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- Rotate every day or when file reaches 10MB -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger: logs to console and rolling file -->
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender" />
+            <AppenderRef ref="RollingFileAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
