@@ -7,6 +7,9 @@
 			<include name="sanity"></include>
 		</run>
 	</groups>-->
+	<listeners>
+		<listener class-name="utilities.ExtentReport"></listener>
+	</listeners>
 
 	<test thread-count="5" name="ChromeTest">
 		<parameter name="browser" value="chrome"></parameter>
