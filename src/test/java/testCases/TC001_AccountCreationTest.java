@@ -35,11 +35,10 @@ public class TC001_AccountCreationTest extends BaseTest {
 			accountPage.clickConfirmBox();
 			accountPage.submittingButton();
 			log.info("********TC001 verifyAccountRegistration testcase execution is ended********");
-			log.debug("Test");
 
 		} catch (Exception e) {
 			log.info("Testcase failed");
-			log.debug("Testcase failed logs");
+		
 
 		}
 	}

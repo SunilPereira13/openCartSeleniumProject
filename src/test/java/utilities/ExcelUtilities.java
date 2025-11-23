@@ -1,82 +1,117 @@
 package utilities;
 
 import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ExcelUtilities {
 
-	private String filePath;
-	private Workbook workbook;
-	private Sheet sheet;
+	public FileInputStream fi;
+	public FileOutputStream fo;
+	public XSSFWorkbook workbook;
+	public XSSFSheet sheet;
+	public XSSFRow row;
+	public XSSFCell cell;
+	public CellStyle style;
+	String path;
 
-	public ExcelUtilities(String filePath, String sheetName) throws IOException {
-		this.filePath = filePath;
-		FileInputStream fis = new FileInputStream(filePath);
-		this.workbook = new XSSFWorkbook(fis); // For .xlsx files
-		this.sheet = workbook.getSheet(sheetName);
-		fis.close();
+	public ExcelUtilities(String path) {
+		this.path = path;
+	};
+
+	public int getRowCount(String sheetName) throws IOException {
+
+		fi = new FileInputStream(path);
+		workbook = new XSSFWorkbook(fi);
+		sheet = workbook.getSheet(sheetName);
+		int rowcount = sheet.getLastRowNum();
+		workbook.close();
+		fi.close();
+		return rowcount;
 	}
 
-	// Method to get data from a specific cell
-	public String getCellData(int rowNum, int colNum) {
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			return "";
-		}
-		Cell cell = row.getCell(colNum);
-		if (cell == null) {
-			return "";
-		}
-		switch (cell.getCellType()) {
-		case STRING:
-			return cell.getStringCellValue();
-		case NUMERIC:
-			return String.valueOf(cell.getNumericCellValue());
-		case BOOLEAN:
-			return String.valueOf(cell.getBooleanCellValue());
-		case FORMULA:
-			return cell.getCellFormula();
-		default:
-			return "";
-		}
+	public int getCellCount(String sheetName, int rownum) throws IOException {
+		fi = new FileInputStream(path);
+		workbook = new XSSFWorkbook(fi);
+		sheet = workbook.getSheet(sheetName);
+		row = sheet.getRow(rownum);
+		int cellcount = row.getLastCellNum();
+		workbook.close();
+		fi.close();
+		return cellcount;
 	}
 
-	// Method to set data in a specific cell
-	public void setCellData(int rowNum, int colNum, String data) throws IOException {
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum);
+	public String getCellData(String sheetName, int rownum, int column) throws IOException {
+		fi = new FileInputStream(path);
+		workbook = new XSSFWorkbook(fi);
+		sheet = workbook.getSheet(sheetName);
+		row = sheet.getRow(rownum);
+		cell = row.getCell(column);
+
+		DataFormatter formatter = new DataFormatter();
+		String data;
+
+		try {
+			data = formatter.formatCellValue(cell); // Returns formatted cell value as String
+		} catch (Exception e) {
+			data = "";
 		}
-		Cell cell = row.getCell(colNum);
+
+		workbook.close();
+		fi.close();
+		return data;
+	}
+
+	public void setCellData(String sheetName, int rownum, int colnum, String data) throws IOException {
+
+		File xlfile = new File(path);
+
+		// If file does not exist, create new workbook and file
+		if (!xlfile.exists()) {
+			workbook = new XSSFWorkbook();
+			fo = new FileOutputStream(path);
+			workbook.write(fo);
+			fo.close();
+		}
+
+		// Open the existing file
+		fi = new FileInputStream(path);
+		workbook = new XSSFWorkbook(fi);
+
+		// If sheet does not exist, create new sheet
+		if (workbook.getSheetIndex(sheetName) == -1) {
+			workbook.createSheet(sheetName);
+		}
+
+		sheet = workbook.getSheet(sheetName);
+
+		// If row does not exist, create new row
+		if (sheet.getRow(rownum) == null) {
+			sheet.createRow(rownum);
+		}
+
+		row = sheet.getRow(rownum);
+
+		// Create or update cell
+		cell = row.getCell(colnum);
 		if (cell == null) {
-			cell = row.createCell(colNum);
+			cell = row.createCell(colnum);
 		}
+
 		cell.setCellValue(data);
 
-		FileOutputStream fos = new FileOutputStream(filePath);
-		workbook.write(fos);
-		fos.close();
-	}
-
-	// Method to get the total number of rows in the sheet
-	public int getRowCount() {
-		return sheet.getLastRowNum() + 1;
-	}
-
-	// Method to get the total number of columns in a specific row
-	public int getColumnCount(int rowNum) {
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			return 0;
-		}
-		return row.getLastCellNum();
-	}
-
-	// Close the workbook when done
-	public void closeWorkbook() throws IOException {
+		// Write changes to the file
+		fo = new FileOutputStream(path);
+		workbook.write(fo);
 		workbook.close();
+		fi.close();
+		fo.close();
 	}
 }

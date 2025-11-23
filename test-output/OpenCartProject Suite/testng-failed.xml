@@ -10,7 +10,7 @@
     <classes>
       <class name="testCases.TC0003_ValidateLoginPageTest">
         <methods>
-          <include name="validLoginTest" invocation-numbers="1"/>
+          <include name="validLoginTest" invocation-numbers="1 2"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
@@ -23,7 +23,7 @@
     <classes>
       <class name="testCases.TC0003_ValidateLoginPageTest">
         <methods>
-          <include name="validLoginTest" invocation-numbers="1"/>
+          <include name="validLoginTest" invocation-numbers="1 2"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>

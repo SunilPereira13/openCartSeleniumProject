@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T16:07:47 IST" name="OpenCartProject Suite" finished-at="2025-11-22T16:09:41 IST" duration-ms="114322">
+  <suite started-at="2025-11-23T17:29:16 IST" name="OpenCartProject Suite" finished-at="2025-11-23T17:31:04 IST" duration-ms="108082">
     <groups>
       <group name="datadriven">
         <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
-        <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
+        <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
       </group> <!-- datadriven -->
       <group name="regression">
         <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
-        <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@536f2a7e]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
+        <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@312aa7c]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
       </group> <!-- regression -->
       <group name="sanity">
         <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
         <method signature="TC001_AccountCreationTest.verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" name="verifyAccountRegistration" class="testCases.TC001_AccountCreationTest"/>
         <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
-        <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
-        <method signature="TC001_AccountCreationTest.verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@312aa7c]" name="verifyAccountRegistration" class="testCases.TC001_AccountCreationTest"/>
-        <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@536f2a7e]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
+        <method signature="TC0003_ValidateLoginPageTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" name="validLoginTest" class="testCases.TC0003_ValidateLoginPageTest"/>
+        <method signature="TC001_AccountCreationTest.verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@c430e6c]" name="verifyAccountRegistration" class="testCases.TC001_AccountCreationTest"/>
+        <method signature="TC002_LoginPageTest.validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@312aa7c]" name="validateLoginAccountTest" class="testCases.TC002_LoginPageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-11-22T16:07:47 IST" name="ChromeTest" finished-at="2025-11-22T16:08:24 IST" duration-ms="37403">
+    <test started-at="2025-11-23T17:29:16 IST" name="ChromeTest" finished-at="2025-11-23T17:30:55 IST" duration-ms="98517">
       <class name="testCases.TC0003_ValidateLoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:02 IST" name="setUp" finished-at="2025-11-22T16:08:05 IST" duration-ms="3202" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:29:45 IST" name="setUp" finished-at="2025-11-23T17:29:49 IST" duration-ms="3400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:05 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-22T16:08:07 IST" duration-ms="1900" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:29:49 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:29:51 IST" duration-ms="2488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:07 IST" name="tearDown" finished-at="2025-11-22T16:08:07 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:29:51 IST" name="tearDown" finished-at="2025-11-23T17:30:01 IST" duration-ms="10040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:07 IST" name="setUp" finished-at="2025-11-22T16:08:10 IST" duration-ms="3094" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:01 IST" name="setUp" finished-at="2025-11-23T17:30:08 IST" duration-ms="6423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,16 +75,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:10 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-22T16:08:22 IST" duration-ms="11678" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:08 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:30:29 IST" duration-ms="21834" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[SunPer@gmail.com]]>
+                <![CDATA[Sunper@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[SunPer@1995]]>
+                <![CDATA[Sunper@1995]]>
               </value>
             </param>
           </params>
@@ -129,13 +129,87 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-22T16:08:22 IST" name="tearDown" finished-at="2025-11-22T16:08:24 IST" duration-ms="2072" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:30 IST" name="tearDown" finished-at="2025-11-23T17:30:32 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:32 IST" name="setUp" finished-at="2025-11-23T17:30:36 IST" duration-ms="3825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:36 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:30:51 IST" duration-ms="14679" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunper1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sunper@1994]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1119)
+at testCases.TC0003_ValidateLoginPageTest.validLoginTest(TC0003_ValidateLoginPageTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@645aa696]" started-at="2025-11-23T17:30:51 IST" name="tearDown" finished-at="2025-11-23T17:30:55 IST" duration-ms="3995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC0003_ValidateLoginPageTest -->
       <class name="testCases.TC001_AccountCreationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-22T16:07:47 IST" name="setUp" finished-at="2025-11-22T16:07:53 IST" duration-ms="6261" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-23T17:29:17 IST" name="setUp" finished-at="2025-11-23T17:29:21 IST" duration-ms="4226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,17 +225,17 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-22T16:07:53 IST" name="verifyAccountRegistration" finished-at="2025-11-22T16:07:56 IST" duration-ms="2655" status="PASS">
+        <test-method signature="verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-23T17:29:21 IST" name="verifyAccountRegistration" finished-at="2025-11-23T17:29:25 IST" duration-ms="3855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-22T16:07:56 IST" name="tearDown" finished-at="2025-11-22T16:07:56 IST" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountCreationTest@76b1e9b8]" started-at="2025-11-23T17:29:25 IST" name="tearDown" finished-at="2025-11-23T17:29:27 IST" duration-ms="2552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountCreationTest -->
       <class name="testCases.TC002_LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-22T16:07:57 IST" name="setUp" finished-at="2025-11-22T16:08:00 IST" duration-ms="3112" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-23T17:29:27 IST" name="setUp" finished-at="2025-11-23T17:29:33 IST" duration-ms="5775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,19 +251,19 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-22T16:08:00 IST" name="validateLoginAccountTest" finished-at="2025-11-22T16:08:02 IST" duration-ms="1954" status="PASS">
+        <test-method signature="validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-23T17:29:33 IST" name="validateLoginAccountTest" finished-at="2025-11-23T17:29:35 IST" duration-ms="2263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-22T16:08:02 IST" name="tearDown" finished-at="2025-11-22T16:08:02 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginPageTest@5b218417]" started-at="2025-11-23T17:29:36 IST" name="tearDown" finished-at="2025-11-23T17:29:44 IST" duration-ms="8331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginPageTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-11-22T16:07:47 IST" name="EdgeTest" finished-at="2025-11-22T16:09:41 IST" duration-ms="114322">
+    <test started-at="2025-11-23T17:29:16 IST" name="EdgeTest" finished-at="2025-11-23T17:31:04 IST" duration-ms="108082">
       <class name="testCases.TC0003_ValidateLoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:06 IST" name="setUp" finished-at="2025-11-22T16:09:13 IST" duration-ms="7086" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:29:45 IST" name="setUp" finished-at="2025-11-23T17:29:56 IST" duration-ms="11351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +279,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:13 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-22T16:09:16 IST" duration-ms="2855" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:29:56 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:29:59 IST" duration-ms="2448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,11 +295,11 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:16 IST" name="tearDown" finished-at="2025-11-22T16:09:19 IST" duration-ms="2556" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:29:59 IST" name="tearDown" finished-at="2025-11-23T17:30:01 IST" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:19 IST" name="setUp" finished-at="2025-11-22T16:09:26 IST" duration-ms="7420" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:30:01 IST" name="setUp" finished-at="2025-11-23T17:30:14 IST" duration-ms="12643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,16 +315,16 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:26 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-22T16:09:38 IST" duration-ms="12361" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:30:14 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:30:30 IST" duration-ms="15743" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[SunPer@gmail.com]]>
+                <![CDATA[Sunper@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[SunPer@1995]]>
+                <![CDATA[Sunper@1995]]>
               </value>
             </param>
           </params>
@@ -295,13 +369,87 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@72bc6553]" started-at="2025-11-22T16:09:38 IST" name="tearDown" finished-at="2025-11-22T16:09:41 IST" duration-ms="2640" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:30:30 IST" name="tearDown" finished-at="2025-11-23T17:30:33 IST" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:30:33 IST" name="setUp" finished-at="2025-11-23T17:30:50 IST" duration-ms="17087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:30:50 IST" name="validLoginTest" data-provider="logindata" finished-at="2025-11-23T17:31:01 IST" duration-ms="11479" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunper1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sunper@1994]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1119)
+at testCases.TC0003_ValidateLoginPageTest.validLoginTest(TC0003_ValidateLoginPageTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC0003_ValidateLoginPageTest@536f2a7e]" started-at="2025-11-23T17:31:01 IST" name="tearDown" finished-at="2025-11-23T17:31:04 IST" duration-ms="3341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC0003_ValidateLoginPageTest -->
       <class name="testCases.TC001_AccountCreationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountCreationTest@312aa7c]" started-at="2025-11-22T16:07:47 IST" name="setUp" finished-at="2025-11-22T16:08:47 IST" duration-ms="59697" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountCreationTest@c430e6c]" started-at="2025-11-23T17:29:17 IST" name="setUp" finished-at="2025-11-23T17:29:28 IST" duration-ms="11222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,17 +465,17 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@312aa7c]" started-at="2025-11-22T16:08:47 IST" name="verifyAccountRegistration" finished-at="2025-11-22T16:08:49 IST" duration-ms="2485" status="PASS">
+        <test-method signature="verifyAccountRegistration()[pri:0, instance:testCases.TC001_AccountCreationTest@c430e6c]" started-at="2025-11-23T17:29:28 IST" name="verifyAccountRegistration" finished-at="2025-11-23T17:29:30 IST" duration-ms="2230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountCreationTest@312aa7c]" started-at="2025-11-22T16:08:49 IST" name="tearDown" finished-at="2025-11-22T16:08:53 IST" duration-ms="3546" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountCreationTest@c430e6c]" started-at="2025-11-23T17:29:30 IST" name="tearDown" finished-at="2025-11-23T17:29:34 IST" duration-ms="4064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountCreationTest -->
       <class name="testCases.TC002_LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginPageTest@536f2a7e]" started-at="2025-11-22T16:08:53 IST" name="setUp" finished-at="2025-11-22T16:09:02 IST" duration-ms="8738" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginPageTest@312aa7c]" started-at="2025-11-23T17:29:34 IST" name="setUp" finished-at="2025-11-23T17:29:41 IST" duration-ms="6474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,11 +491,11 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@536f2a7e]" started-at="2025-11-22T16:09:02 IST" name="validateLoginAccountTest" finished-at="2025-11-22T16:09:04 IST" duration-ms="1967" status="PASS">
+        <test-method signature="validateLoginAccountTest()[pri:0, instance:testCases.TC002_LoginPageTest@312aa7c]" started-at="2025-11-23T17:29:41 IST" name="validateLoginAccountTest" finished-at="2025-11-23T17:29:43 IST" duration-ms="1728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginPageTest@536f2a7e]" started-at="2025-11-22T16:09:04 IST" name="tearDown" finished-at="2025-11-22T16:09:06 IST" duration-ms="2571" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginPageTest@312aa7c]" started-at="2025-11-23T17:29:43 IST" name="tearDown" finished-at="2025-11-23T17:29:44 IST" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

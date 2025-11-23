@@ -30,7 +30,7 @@
 
     <Loggers>
         <!-- Root Logger: logs to console and rolling file -->
-        <Root level="debug">
+        <Root level="Info">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="RollingFileAppender" />
         </Root>
